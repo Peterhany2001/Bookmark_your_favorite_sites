@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Bookmarker</h1>
+    </div>
+    <div class="container">
+        <div class="backcolor">
+            <h2 class="text-center">Bookmark your favorite sites </h2>
+            <p class="p-color">Site name</p>
+            <input type="text" id="siteName" class="input" placeholder="Bookmark Name">
+            <p class="p-color">Site URL</p>
+            <input type="email" id="siteUrl" class="input" placeholder="Site URL">
+            <div class="m-auto p-3">
+                <button class="btn btn-primary shadow" onclick="submit()">submit</button>
+            </div>
+        </div>
+
+        <table class="table mt-4">
+            <thead>
+                <th>index</th>
+                <th>siteName</th>
+                <th>delete</th>
+                <th>visit</th>
+            </thead>
+
+            <tbody id="siteTable">
+
+            </tbody>
+        </table>
+
+        <div class="line "></div>
+        <div class="conatiner">
+            <p class="p-footer p-4">© DESIGNED BY PETER HANY</p>
+          
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
